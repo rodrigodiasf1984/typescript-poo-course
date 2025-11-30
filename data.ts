@@ -1,33 +1,41 @@
-import { Publication, User } from './models'
+import { Publication, User } from "./models";
 
-const lucas: User = {
-  firstName: 'Lucas',
-  lastName: 'Garcez',
-  email: 'lucas@coffstack.com'
-}
+export const lucas: User = {
+  firstName: "Lucas",
+  lastName: "Garcez",
+  email: "lucas@coffstack.com",
+  age: 32,
+};
 
-const mateus: User = {
-  firstName: 'Mateus',
-  lastName: 'Silva',
-  email: 'mateus_silva@gmail.com'
-}
+export const rodrigo: User = {
+  firstName: "Rodrigo",
+  lastName: "Dias",
+  email: "rodrigodiasf@gmail.com",
+  age: 42,
+};
 
-export const users: User[] = [lucas, mateus]
+export const users: User[] = [lucas, rodrigo];
 
 export const publications: Publication[] = [
   {
-    imageURL: 'fake-url-1',
-    description: 'description 1',
-    author: lucas
+    imageURL: "fake-url-1",
+    description: "description 1",
+    author: lucas,
   },
   {
-    imageURL: 'fake-url-2',
-    description: 'description 2',
-    author: mateus
+    imageURL: "fake-url-2",
+    description: "description 2",
+    author: rodrigo,
   },
   {
-    imageURL: 'fake-url-3',
-    description: 'description 3',
-    author: lucas
-  }
-]
+    imageURL: "fake-url-3",
+    description: "description 3",
+    author: lucas,
+  },
+];
+
+export const publication2: Publication = {
+  imageURL: "fake-url-2",
+  description: "description 2",
+  author: rodrigo,
+};
