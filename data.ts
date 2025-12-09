@@ -5,6 +5,7 @@ export const lucas: User = {
   lastName: "Garcez",
   email: "lucas@coffstack.com",
   age: 32,
+  profileImageURL: "http://example.com/lucas.jpg",
 };
 
 export const rodrigo: User = {
@@ -12,6 +13,7 @@ export const rodrigo: User = {
   lastName: "Dias",
   email: "rodrigodiasf@gmail.com",
   age: 42,
+  profileImageURL: "http://example.com/rodrigo.jpg",
 };
 
 export const users: User[] = [lucas, rodrigo];

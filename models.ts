@@ -3,6 +3,7 @@ export interface User {
   lastName: string;
   email: string;
   age: number;
+  profileImageURL: string;
 }
 
 export interface Publication {

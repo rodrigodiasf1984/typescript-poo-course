@@ -1,5 +1,4 @@
 import { publication2, rodrigo } from "./data";
-import { User } from "./models";
 
 const email = rodrigo["email"];
 console.log("email:", email);
